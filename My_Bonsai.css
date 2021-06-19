@@ -1,0 +1,92 @@
+#Newhook {
+    color: red;
+    background-color: black;
+    width: 100%;
+}
+
+h1 {
+    color: red;
+    background-color: black;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+a {
+    background-color: black;
+    padding: 10px 30%;
+    color: white;
+}
+
+a:hover {
+    background-color: Red;
+    color: black;
+}
+
+p {
+    color: yellow;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    line-height: 2em;
+}
+
+#Desojo {
+    width: 20%;
+    Height: 20%;
+    Border: 1px solid red;
+}
+
+body {
+    max-width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+img {
+    Width: 20%;
+    Margin: 2px;
+    padding: 2px;
+    border: 1px solid red;
+}
+
+form {
+    display: inline-block;
+    width: 30%;
+    background-color: none;
+}
+
+input {
+    background-color: black;
+    padding: 10px 30%;
+    color: white;
+}
+
+input:hover {
+    background-color: Red;
+    color: black;
+}
+
+#menu {
+    padding: auto;
+    float: left;
+}
+
+#menu1 {
+    padding: auto;
+    float: none;
+}
+
+#menu2 {
+    padding: auto;
+    float: right;
+}
+
+footer {
+    color: red;
+    text-align: center;
+}
+
+#Cypress {
+    Width: 50%;
+    display:inline-block;
+}
