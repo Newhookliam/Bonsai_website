@@ -1,92 +1,46 @@
-#Newhook {
-    color: red;
-    background-color: black;
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
 }
-
-h1 {
-    color: red;
-    background-color: black;
-    font-variant: small-caps;
-    text-decoration: underline;
-}
-
-a {
-    background-color: black;
-    padding: 10px 30%;
-    color: white;
-}
-
-a:hover {
-    background-color: Red;
-    color: black;
-}
-
-p {
-    color: yellow;
-    font-weight: bold;
-    padding: 10px;
-    margin: 10px;
-    line-height: 2em;
-}
-
-#Desojo {
-    width: 20%;
-    Height: 20%;
-    Border: 1px solid red;
-}
-
 body {
     max-width: 100%;
     text-align: center;
-    background-color: aquamarine;
 }
 
-img {
-    Width: 20%;
-    Margin: 2px;
-    padding: 2px;
-    border: 1px solid red;
+#Newhook {
+    background-image: url(/Bonsai_website/images/trees-light-shine.jpg);
+    background-position: 40%;
+    width: 100%;
+    height: 100px;
 }
 
-form {
-    display: inline-block;
-    width: 30%;
-    background-color: none;
-}
-
-input {
-    background-color: black;
-    padding: 10px 30%;
-    color: white;
-}
-
-input:hover {
-    background-color: Red;
-    color: black;
+h1 {
+    color: #fff;
+    padding-top: 20px;
 }
 
 #menu {
-    padding: auto;
-    float: left;
+    background-color: skyblue;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#menu1 {
-    padding: auto;
-    float: none;
+.btnMenu {
+    width: 200px;
 }
 
-#menu2 {
-    padding: auto;
-    float: right;
+.btnMenu a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: bold;
+    border: none;
+    background-color: none;
+    color: #000;
 }
-
-footer {
-    color: red;
-    text-align: center;
-}
-
-#Cypress {
-    Width: 50%;
-    display:inline-block;
+.btnMenu a:hover {
+    color: #fff;
 }
