@@ -4,7 +4,6 @@
 }
 body {
     max-width: 100%;
-    text-align: center;
 }
 
 #Newhook {
@@ -12,11 +11,13 @@ body {
     background-position: 40%;
     width: 100%;
     height: 100px;
+    text-align: center;
 }
 
 h1 {
     color: #fff;
     padding-top: 20px;
+    text-align: center;
 }
 
 #menu {
@@ -43,4 +44,60 @@ h1 {
 }
 .btnMenu a:hover {
     color: #fff;
+}
+
+.gridCard {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 900px);
+
+}
+
+.card, h3, p {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    text-align: center;
+    place-self: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+p {
+    font-size: 1.2em;
+}
+
+img {
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    place-self: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#questionForm {
+    width: 400px;
+    gap: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

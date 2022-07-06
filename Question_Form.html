@@ -1,69 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Submission Form</title>
-    <style>
-        h1 {
-            color: red;
-            text-align: center;
-            font-weight: bold;
-            background-color: black;
-
-        }
-        #QuestionForm {
-            text-align: center;
-            display: block;
-            border: 2px solid red;
-            background-color: black;
-            color: white;
-        }
-
-        p {
-            text-align: center;
-            color: yellow;
-            font-weight: bold;
-        }
-
-        a {
-            text-align: center;
-            border: 2px solid black;
-            color: white;
-            background-color: black;
-            text-decoration: none;
-        }
-
-        a:hover {
-            background-color: White;
-            color: red;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="My_Bonsai.css">
+    <title>Question Form</title>
 </head>
-<body background="Picture/LRB9LM1-landscape-background-images.jpg">
-    <H1>Submission Form</H1>
-    <form>
-    <a href="For_sale.html">Go Back</a>
-    </form>
-    <P>Please complete the form below to submit any questions or queries you may have.</P>
-<div id="QuestionForm">
-<form method="post">
-    <fieldset>
-        <legend style="text-align: center;">Question Form</legend>
+<body>
+    <div Id="Newhook">
+        <h1>Question Form</h1>
+        </div>
+    
+        <nav id="menu">
+            <div class="btnMenu">
+                <a href="My_Bonsai.html">My Bonsai</a>
+            </div>
+            <div class="btnMenu">
+                <a href="For_sale.html">For Sale</a>
+            </div>
+            <div class="btnMenu">
+                <a href="Pictures.html">Pictures</a>
+            </div>
+        </nav>
+        <form id="questionForm" action="">
+            <h3>Please complete the form</h3>
 
-        <label for="Name">Name</label><br/>
-        <input type="text" id="Name" name="Name" required="required"/><br/>
-<br/>
+            <label for="Name">Name</label>
+            <input type="text" name="name">
 
-        <label for="Bonsai Names">Bonsai Names</label><br/>
-        <input type="text" id="BonsaiNames" Name="BonsaiNames" required="Required"/><br/>
-<br/>
-        <label for="question">Question</label><br/>
-        <textarea name="Paragraph" col="50" row="50"></textarea>
-<br/><br/>
-        <input type="submit" name="submit" id="submit" value="Submit"><br/>
-<br/>
-        <input type="reset" name="reset" id="reset" value="Reset">
-    </fieldset>
-</form>
-</div>
+            <label for="topic">Choose the Topic</label>
+            <select id="list" name="topic">
+                <option value="tree">Trees</option>
+                <option value="website">Website</option>
+                <option value="cost">Cost</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="question">Question</label>
+            <textarea name="question" id="question" cols="30" rows="10"></textarea>
+
+            <button id="submit">Submit</button>
+        </form>
 </body>
 </html>
